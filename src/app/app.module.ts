@@ -39,7 +39,8 @@ import { PaisesComponent } from './components/paises/paises.component';
       { path: '', redirectTo: '/inicio', pathMatch: 'full' },
       { path: 'inicio', component: InicioComponent },
       { path: 'articulos', component: ArticulosComponent },
-      { path: 'articulosfamilias', component: ArticulosFamiliasComponent }
+      { path: 'articulosfamilias', component: ArticulosFamiliasComponent },
+      { path: 'paises', component: PaisesComponent }
     ]),
     NgbPaginationModule,
     NgbModalModule,
